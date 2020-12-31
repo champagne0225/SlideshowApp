@@ -13,6 +13,7 @@
 		F9773789259D5DA4002101C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9773787259D5DA4002101C2 /* Main.storyboard */; };
 		F977378B259D5DA5002101C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F977378A259D5DA5002101C2 /* Assets.xcassets */; };
 		F977378E259D5DA5002101C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F977378C259D5DA5002101C2 /* LaunchScreen.storyboard */; };
+		F9773796259D5EBC002101C2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9773795259D5EBC002101C2 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F977378A259D5DA5002101C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F977378D259D5DA5002101C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F977378F259D5DA5002101C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9773795259D5EBC002101C2 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F9773781259D5DA3002101C2 /* AppDelegate.swift */,
 				F9773783259D5DA4002101C2 /* SceneDelegate.swift */,
 				F9773785259D5DA4002101C2 /* ViewController.swift */,
+				F9773795259D5EBC002101C2 /* ResultViewController.swift */,
 				F9773787259D5DA4002101C2 /* Main.storyboard */,
 				F977378A259D5DA5002101C2 /* Assets.xcassets */,
 				F977378C259D5DA5002101C2 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				F9773786259D5DA4002101C2 /* ViewController.swift in Sources */,
 				F9773782259D5DA3002101C2 /* AppDelegate.swift in Sources */,
 				F9773784259D5DA4002101C2 /* SceneDelegate.swift in Sources */,
+				F9773796259D5EBC002101C2 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tomoya.seki.SlideshowApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tomoya.seki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tomoya.seki.SlideshowApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tomoya.seki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
